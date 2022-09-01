@@ -21,7 +21,8 @@
 
 /* contenuto header */
 header {
-    margin: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
     text-align: center;
 }
 
@@ -60,7 +61,7 @@ img {
 h3,
 span,
 a {
-    margin-top: 5px;
+    margin: 9px 0 9px 0;
 }
 
 h3 {
