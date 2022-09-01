@@ -6,11 +6,11 @@
     font-family: 'Fredoka', sans-serif;
 }
 
-.clearfix::after {
+/* .clearfix::after {
     content: "";
     display: block;
     clear: both;
-}
+} */
 
 /* General */
 .container {
@@ -36,8 +36,6 @@ p {
     text-align: center;
 }
 
-/* Asset */
-
 /* immagine */
 .asset {
     width: calc((100% - 60px) / 3);
@@ -53,23 +51,18 @@ img {
     height: 100px;
     object-fit: cover;
     float: left;
-    padding-right: 20px;
+    margin-right: 20px;
 }
 
 /* nome + titolo + mail */
 
 h3,
-span,
 a {
     margin: 9px 0 9px 0;
 }
 
 h3 {
     text-transform: uppercase;
-}
-
-span {
-    display: block;
 }
 
 a {
