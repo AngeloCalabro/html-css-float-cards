@@ -15,7 +15,7 @@
 /* General */
 .container {
     width: 60%;
-    min-width: 1000px;
+    min-width: 1200px;
 
 }
 
@@ -27,6 +27,7 @@ header {
 
 h1 {
     color: #e53170;
+    font-size: 40px;
 }
 
 p {
@@ -38,10 +39,12 @@ p {
 
 /* immagine */
 .asset {
-    width: 350px;
+    width: calc((100% - 60px) / 3);
     background-color: #0f0e17;
     color: white;
-    /* box-shadow: ; */
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .5);
+    float: left;
+    margin: 25px 10px;
 }
 
 img {
@@ -52,11 +55,6 @@ img {
 }
 
 /* nome + titolo + mail */
-
-.desc {
-    padding: 20px;
-
-}
 
 h3 {
     text-transform: uppercase;
