@@ -13,17 +13,60 @@
 }
 
 /* General */
-
 .container {
     width: 60%;
     min-width: 1000px;
-    text-align: center;
+
 }
 
+/* contenuto header */
 header {
     margin: 30px;
+    text-align: center;
 }
 
 h1 {
     color: #e53170;
+}
+
+p {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Asset */
+
+/* immagine */
+.asset {
+    width: 350px;
+    background-color: #0f0e17;
+    color: white;
+    /* box-shadow: ; */
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    float: left;
+}
+
+/* nome + titolo + mail */
+
+.desc {
+    padding: 20px;
+
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+span {
+    display: block;
+}
+
+a {
+    text-decoration: dashed;
+    color: #45ccf2;
 }
